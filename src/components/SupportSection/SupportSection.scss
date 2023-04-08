@@ -1,0 +1,64 @@
+.support-container{
+    display: flex;
+    flex-direction: column-reverse;
+
+    .support-img{
+        flex: 1.2;
+        display: flex;
+        align-items: center;
+        height: 600px;
+        
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .support-content{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:flex-start;
+        padding: 1em;
+        height: 600px;
+        background-color: var(--primary);
+        background-image: url('../../../public/images/Pattern.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        .support-heading{
+            color: var(--white);
+            font-size: var(--fs-2xl);
+            font-weight: 700;
+            line-height: 1.18;
+            margin-bottom: 0.5em;
+            word-break: break-word;
+
+            span{
+                color: var(--primary7);
+            }
+        }
+
+        .support-button{
+            background-color: var(--white) !important;
+            color: var(--primary) !important;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .support-container {
+        flex-direction: row;
+        gap: 1em;
+
+        .support-content {
+            padding: 2em 1em;
+        }
+        .support-heading {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}

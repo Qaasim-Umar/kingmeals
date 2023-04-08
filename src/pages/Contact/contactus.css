@@ -1,0 +1,175 @@
+.overall-div {
+    width: 100%;
+    max-width: 45em;
+    text-align: center;
+    padding: 6em 1.5em;
+    margin: auto;
+}
+.getintouch {
+    padding: 2em 1em;
+    margin-bottom: 2em;
+    background-color: var(--accent1);
+}
+.getintouch h1 {
+    font-family: var(--ff-title);
+    font-weight: 700;
+    font-size: var(--fs-xl);
+}
+
+form {
+    border-radius: 25px;
+    background-color: #fff;
+    color: var(--black);
+    padding: 3rem;
+    margin: 2em auto;
+    border: 1px solid var(--oc-gray-0);
+    box-shadow: -3px 6px 21.1px -4px rgb(34, 48, 102, 0.1);
+}
+
+label {
+    display: block;
+}
+
+textarea {
+    height: 13.5em;
+}
+
+.flex-left, .flex-right {
+    flex: 1;
+}
+
+input, textarea {
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--black);
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 100%;
+    max-width: 20em;
+}
+input:focus, textarea:focus {
+    outline-color: var(--primary);
+}
+
+button {
+    border-radius: 4px;
+    padding: 0.5em;
+    border: none;
+}
+
+button,
+input,
+textarea {
+    font-family: inherit;
+    color: inherit;
+}
+
+.info-flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.info-flex {
+    display: flex;
+    flex: auto;
+    font-size: var(--fs-sm);
+    padding: 1em;
+}
+
+.flex-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+    margin-bottom: 2.5em;
+}
+
+.x-button {
+    padding: 2em;
+    background-color: var(--secondary1);
+    height: 100%;
+    width: 100%;
+}
+
+.x-button:hover {
+    background-color: var(--primary1);
+    color: var(--text);
+}
+.x-button img {
+    width: auto;
+}
+.x-button p {
+    word-break: break-word;
+}
+.pill-button {
+    border-radius: 50em;
+    padding: 0.8em 1.6em;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: var(--primary);
+    color: var(--white);
+    border: 1px solid transparent;
+    transition: transform 0.3s;
+}
+.pill-button:hover {
+    transform: translateY(-2px);
+    background-color: var(--primary3);
+}
+.pill-button:active {
+    transform: translateY(-2px) scale(0.95);
+    background-color: var(--primary3);
+}
+.pill-button.tag {
+    background-color: var(--oc-gray-2);
+    color: inherit;
+}
+.pill-button.tag:hover {
+    background-color: var(--primary0);
+    color: var(--primary6);
+}
+.title {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    font-size: var(--fs-md);
+}
+.form-divider {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    margin-bottom: 2em;
+}
+
+@media screen and (max-width: 768px) {
+    .overall-div {
+        width: 100%;
+        margin: auto;
+    }
+    .getintouch {
+        text-align: center;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    title {
+        display: block;
+        text-align: center;
+    }
+    .form-divider {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .flex-left, .flex-right {
+        width: 100%;
+        padding: 0;
+    }
+    .overall-div {
+        width: 100%;
+        margin: auto;
+    }
+}
