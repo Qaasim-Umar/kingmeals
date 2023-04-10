@@ -1,9 +1,16 @@
-.background{
-background-color:transparent;
-background-image: url(../../assets//icons//bg.svg);
-background-position: 50% 50%;
-background-size: 96% 90%;
-padding: 140px 3%;
-background-size: cover;
-background-repeat: no-repeat;
+.background {
+  background-color: transparent;
+  background-image: url(../../assets//icons//bg.svg);
+  background-position: 50% 50%;
+  background-size: 96% 90%;
+  /* padding: 140px 3%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.font {
+  font-family: "Syne";
+}
+.color{
+    color: var(--text-light);
 }

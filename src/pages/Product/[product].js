@@ -3,10 +3,13 @@ import FlowerFrame from "../../components/FlowerFrame";
 import { Icon } from "../../components/Icon";
 import "./product.css";
 import data from "../../data";
+import Swiperer from "../../components/Swiper/Swiper";
 
 function ProductPage() {
   return (
     <>
+{/* <Swiperer/> */}
+
       <div className="product-hero">
         <div className="product-hero-container">
           <h1>Get your food delivered, or pick-up in store.</h1>
@@ -37,23 +40,21 @@ function ProductPage() {
             <ul className="product-list-grid">
               {category.menu.map((product) => (
                 <li key={product.id} className="product-list-gridcell">
-                  <ProductCard
-                    animated
-                    src={`/images/dish/${product.image}`}
-                    title={product.title}
-                    price={product.price}
-                    bg={category.color}
-                  ></ProductCard>
-
+                 
+                    <ProductCard
+                      animated
+                      src={`/images/dish/${product.image}`}
+                      title={product.title}
+                      price={product.price}
+                      bg={category.color}
+                    ></ProductCard>
+                
                   <button className="snipcart-add-item"
                     data-item-id={product.id}
                     data-item-image={product.image}
                     data-item-name={product.title}
                     data-item-price={product.price}
-                  >
-                    Add to cart
-                  </button>
-
+                  >Add to cart</button>
                 </li>
               ))}
             </ul>

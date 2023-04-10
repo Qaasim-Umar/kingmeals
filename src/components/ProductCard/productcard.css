@@ -1,15 +1,19 @@
 .pc-wrap {
-    flex: 1;
+  flex: 1;
 }
 .pc-content {
-    padding-top: 1.5em;
-    text-align: center;
+  padding-top: 1.5em;
+  text-align: left;
+}
+.p-image {
+  background-color: #ade9d6;
+  padding: 7px;
 }
 .pc-title {
-    font-size: var(--fs-body);
-    font-weight: 700;
-    margin-bottom: 0.25em;
+  font-size: var(--fs-body);
+  font-weight: 700;
+  margin-bottom: 0.25em;
 }
 .pc-price {
-    color: var(--text-light);
+  color: var(--text-light);
 }

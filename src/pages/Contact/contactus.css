@@ -8,7 +8,7 @@
 .getintouch {
     padding: 2em 1em;
     margin-bottom: 2em;
-    background-color: var(--accent1);
+    background-color: rgb(172, 248, 172);
 }
 .getintouch h1 {
     font-family: var(--ff-title);
@@ -86,7 +86,7 @@ textarea {
 
 .x-button {
     padding: 2em;
-    background-color: var(--secondary1);
+    background-color: rgb(169, 248, 169);
     height: 100%;
     width: 100%;
 }

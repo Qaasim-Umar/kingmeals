@@ -10,6 +10,17 @@
     margin: auto;
    
 }
+
+
+.product-list-gridcell {
+    min-width: 13em;
+    border-radius: 4px;
+    background-color: #dcfcf2;
+   /* margin: auto; */
+   padding:5px;
+   text-align: left;
+}
+
 .product-hero h1 {
     font-family: var(--ff-title);
     font-size: var(--fs-2xl);
@@ -18,7 +29,7 @@
 }
 .product-hero p:first-of-type {
     font-size: var(--fs-md);
-    z-index: 1000;
+    /* z-index: 1000; */
     position: relative;
 }
 .product-hero p:nth-of-type(2) {
@@ -35,10 +46,14 @@
 }
 
 .snipcart-add-item{
-background-color: aqua;
+background-color: #20c997;
 color: white;
-border-radius: 12px;
-padding: 4px;
+border-radius: 4px;
+padding:9px 9px;
+margin: 10px 0;
+
+
+
 }
 @media only screen and (min-width: 48rem) {
     .product-hero-icon {
@@ -76,7 +91,9 @@ padding: 4px;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 2em;
+    
 }
 .product-list-gridcell {
     max-width: 10em;
+    margin: 0 auto;
 }

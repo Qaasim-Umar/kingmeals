@@ -13,14 +13,14 @@ export default function Contact() {
 					<div className="info-flex">
 						<button className="x-button">
 							<img src="images/location.png" alt="location icon" />
-							<p>25 Festac Close.</p>
+							<p>25 Taiwo Close.</p>
 						</button>
 					</div>
 
 					<div className="info-flex">
 						<button className="x-button">
 							<img src="images/phone.png" alt="phone icon" />
-							<p>+234 818 456 3998</p>
+							<p>+234 9165 276094</p>
 						</button>
 					</div>
 

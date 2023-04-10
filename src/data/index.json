@@ -29,13 +29,8 @@
         "title": "Creamy Chicken",
         "price": 2500,
         "image": "creamychicken.webp"
-      },
-      {
-        "id": "m105",
-        "title": "Toast and Salmon",
-        "price": 2000,
-        "image": "toastsalmon.webp"
       }
+     
     ]
   },
   {
@@ -68,13 +63,8 @@
         "title": "Chicken Teriyaki",
         "price": 2500,
         "image": "chickenteriyaki.webp"
-      },
-      {
-        "id": "m205",
-        "title": "Pasta Primavera",
-        "price": 2000,
-        "image": "pastaprimavera.webp"
       }
+     
     ]
   },
   {
@@ -107,12 +97,6 @@
         "title": "Poundo and Veg Soup",
         "price": 2000,
         "image": "poundovegturkey.webp"
-      },
-      {
-        "id": "m305",
-        "title": "Eba and Eforiro Soup",
-        "price": 2000,
-        "image": "ebaeforirogoat.webp"
       }
     ]
   },
@@ -146,12 +130,6 @@
         "title": "Fiery Tacos",
         "price": 2000,
         "image": "tacos.webp"
-      },
-      {
-        "id": "m405",
-        "title": "Firecracker Prawn",
-        "price": 2000,
-        "image": "crackerprawn.webp"
       }
     ]
   },
