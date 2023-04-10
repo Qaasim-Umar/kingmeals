@@ -94,6 +94,7 @@ margin: 10px 0;
     
 }
 .product-list-gridcell {
-    max-width: 10em;
+    min-width: 12em;
+    max-width: 15em;
     margin: 0 auto;
 }

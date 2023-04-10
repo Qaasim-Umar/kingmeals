@@ -1,6 +1,6 @@
 .services{
     position: relative;
-    padding: 120px 10px;
+    padding: 40px 10px;
 
     .container{
         width: 100%;
@@ -30,7 +30,9 @@
             }
         }
 
-
+.works-color{
+    color: rgb(34, 34, 34);
+}
         .services-grid{
             display:grid;
             // grid-template-columns: 1fr 0.4fr 1fr 0.4fr 1fr;

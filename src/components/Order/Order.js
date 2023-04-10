@@ -6,14 +6,14 @@ const Works = () => {
   return (
     <div>
       <div>
-        <div className="flex justify-center flex-col gap-4 mt-[20px]">
-          <h1 className=" font-bold text-[65px] text-textgreen ">
+        <div className="flex justify-center flex-col gap-4 mt-[70px]">
+          <h1 className=" font-bold text-[65px]  ">
             <div className="font">
-            Browse our menu
+            Browse our <span className="text-textgreen"> menu</span>
             </div>
           </h1>
           <div className="color">
-          <p className=" text-[18px] m-auto max-w-[580px] leading-7 ">
+          <p className=" text-[18px] m-auto max-w-[580px] leading-7 px-3 ">
             Use our menu to place an order online, or{" "}
             <a href="">
               <span className="text-textgreen underline">phone</span>

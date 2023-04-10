@@ -76,7 +76,7 @@ function Home() {
 				text="Lorem Ipsum has been the industry's standard dummy text ever since the 1500."
 				link="/contact"
 				btnText="Call Now"
-				// image="servingplace.png"
+				image="servingplace.png"
 				highlight
 			/>
 			<SupportSection />

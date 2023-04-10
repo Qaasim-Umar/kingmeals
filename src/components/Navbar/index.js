@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import LinkTop from "../LinkTop";
 import Logo from "../Logo";
@@ -6,9 +6,20 @@ import { Icon } from "../Icon";
 import "./navbar.css";
 import { FaCartPlus } from "react-icons/fa";
 
-function Navbar() {
+
+
+function Navbar({children}) {
   const [open, setOpen] = useState(false);
 
+  // const [total, setTotal] = useState(0);
+  // useEffect(() => {
+  //   if (window.Snipcart) {
+  //     setTotal(Snipcart.store.getState().cart.total);
+  //   }
+  // });
+
+
+  
   const toggle = useCallback(() => {
     setOpen((_open) => !_open);
   }, []);
@@ -43,7 +54,7 @@ function Navbar() {
       <div className="bg-white md:p-4 p-3  rounded-sm relative">
           <div className="text-white z-10 md:left-10 left-7 -top-2 absolute ">
             <p className="bg-green-500 text-[16px] px-2 py-[1px] rounded-full">
-              2
+              {3}
             </p>
           </div>
           <FaCartPlus style={{ color: "#087f5b" }} />

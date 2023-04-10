@@ -10,7 +10,16 @@
 
 .font {
   font-family: "Syne";
+  
 }
 .color{
     color: var(--text-light);
+}
+
+@media only screen and (max-width: 767px) {
+  .font{
+    line-height: 0.875;
+    font-size: 54px;
+    padding: 0 2px ;
+  }
 }

@@ -9,13 +9,13 @@
       {
         "id": "m101",
         "title": "Caesar Salad",
-        "price": 2000,
+        "price": 20,
         "image": "caesarsalad.webp"
       },
       {
         "id": "m102",
         "title": "Chicken Broccoli",
-        "price": 2500,
+        "price": 10,
         "image": "chickenbroccoli.webp"
       },
       {
@@ -27,7 +27,7 @@
       {
         "id": "m104",
         "title": "Creamy Chicken",
-        "price": 2500,
+        "price": 12,
         "image": "creamychicken.webp"
       }
      
@@ -43,25 +43,25 @@
       {
         "id": "m201",
         "title": "Potato Beef Curry",
-        "price": 2500,
+        "price": 25,
         "image": "potatobeefcurry.webp"
       },
       {
         "id": "m202",
         "title": "Shrimp Paella",
-        "price": 3000,
+        "price": 20,
         "image": "shrimppaella.webp"
       },
       {
         "id": "m203",
         "title": "Pork Ramen",
-        "price": 2500,
+        "price": 250,
         "image": "porkramen.webp"
       },
       {
         "id": "m204",
         "title": "Chicken Teriyaki",
-        "price": 2500,
+        "price": 20,
         "image": "chickenteriyaki.webp"
       }
      
@@ -77,25 +77,25 @@
       {
         "id": "m301",
         "title": "Plantain and Ofada",
-        "price": 1500,
+        "price": 15,
         "image": "plantainofada.webp"
       },
       {
         "id": "m302",
         "title": "Nigerian Jollof Rice",
-        "price": 1200,
+        "price": 17,
         "image": "jollof.webp"
       },
       {
         "id": "m303",
         "title": "Rice and Ofada",
-        "price": 1500,
+        "price": 18,
         "image": "riceofada.webp"
       },
       {
         "id": "m304",
         "title": "Poundo and Veg Soup",
-        "price": 2000,
+        "price": 20,
         "image": "poundovegturkey.webp"
       }
     ]
@@ -110,25 +110,25 @@
       {
         "id": "m401",
         "title": "Cheesy Salsa",
-        "price": 2000,
+        "price": 23,
         "image": "cheesysalsa.webp"
       },
       {
         "id": "m402",
         "title": "Chili Turkey Beans",
-        "price": 2000,
+        "price": 18,
         "image": "chiliturkeybeans.webp"
       },
       {
         "id": "m403",
         "title": "Fish Peppersoup",
-        "price": 1500,
+        "price": 13,
         "image": "peppersoup.webp"
       },
       {
         "id": "m404",
         "title": "Fiery Tacos",
-        "price": 2000,
+        "price": 24,
         "image": "tacos.webp"
       }
     ]
@@ -143,25 +143,25 @@
       {
         "id": "m501",
         "title": "Mixed Veggie Bowl",
-        "price": 1500,
+        "price": 10,
         "image": "mixedveggiebowl.webp"
       },
       {
         "id": "m502",
         "title": "Vegan Salad",
-        "price": 1500,
+        "price": 110,
         "image": "vegansalad.webp"
       },
       {
         "id": "m503",
         "title": "Egg Donburi",
-        "price": 1800,
+        "price": 18,
         "image": "eggdonburi.webp"
       },
       {
         "id": "m504",
         "title": "Fruity Maple Pancake",
-        "price": 1500,
+        "price": 13,
         "image": "pancake.webp"
       }
     ]

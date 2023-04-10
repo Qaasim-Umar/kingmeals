@@ -5,7 +5,7 @@ const Services = () => {
 		<div className="services">
 			<div className="container">
 				<div className="title">
-					<h2>How it works.</h2>
+					<h2>How it <span className='works-color'> works. </span></h2>
 				</div>
 				<div className="services-grid">
 					<div className="service">
