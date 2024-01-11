@@ -51,15 +51,16 @@ function Navbar({children}) {
         </NavLink>
 
       </nav>
-      <div className="bg-white md:p-4 p-3  rounded-sm relative">
+      <a href="/product#/cart"> <div className="bg-white md:p-4 p-3  rounded-sm relative">
           <div className="text-white z-10 md:left-10 left-7 -top-2 absolute ">
             <p className="bg-green-500 text-[16px] px-2 py-[1px] rounded-full">
               {3}
             </p>
           </div>
-          <FaCartPlus style={{ color: "#087f5b" }} />
+          <FaCartPlus style={{ color: "#087f5b" }} /> 
+           
         </div>
-       
+        </a>
       <button
         className="navbar-toggle"
         data-open={open ? "" : null}
