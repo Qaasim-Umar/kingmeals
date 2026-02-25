@@ -1,10 +1,7 @@
 .pc-wrap {
   flex: 1;
 }
-.pc-content {
-  padding-top: 1.5em;
-  text-align: left;
-}
+
 .p-image {
   background-color: #ade9d6;
   padding: 7px;
@@ -16,4 +13,27 @@
 }
 .pc-price {
   color: var(--text-light);
+}
+
+/* Order Food button */
+.pc-order-btn {
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  padding: 0.45rem 1.1rem;
+  border-radius: 4px;
+  font-family: var(--ff-body);
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  cursor: pointer;
+  transition:
+    background 0.2s,
+    transform 0.15s;
+}
+.pc-order-btn:hover {
+  background: var(--primary6);
+}
+.pc-order-btn--added {
+  background: var(--primary7);
+  transform: scale(0.97);
 }

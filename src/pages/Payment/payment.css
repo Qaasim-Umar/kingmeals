@@ -1,0 +1,315 @@
+/* ── Payment-specific styles ───────────────────────────────── */
+
+/* Method tab selector */
+.pay-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  margin-bottom: 1.5rem;
+}
+
+.pay-tab {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 0.75rem;
+  align-items: center;
+  padding: 0.85rem 1.1rem;
+  border: 1.5px solid var(--primary2);
+  border-radius: 0.75rem;
+  background: var(--white);
+  cursor: pointer;
+  text-align: left;
+  transition:
+    border-color 0.18s,
+    background 0.18s,
+    transform 0.12s;
+}
+.pay-tab:hover {
+  border-color: var(--primary3);
+  background: var(--primary0);
+  transform: translateX(3px);
+}
+.pay-tab--active {
+  border-color: var(--primary);
+  background: var(--primary0);
+  box-shadow: 0 0 0 3px rgba(32, 201, 151, 0.12);
+}
+
+.pay-tab-icon {
+  grid-row: 1 / 3;
+  font-size: 1.4rem;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+.pay-tab-label {
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  color: var(--text);
+  line-height: 1.2;
+}
+.pay-tab-sub {
+  font-size: 0.72rem;
+  color: var(--text-light);
+}
+
+/* Card preview */
+.pay-card-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.pay-card-preview {
+  background: linear-gradient(
+    135deg,
+    var(--primary8) 0%,
+    var(--primary6) 60%,
+    var(--primary3) 100%
+  );
+  border-radius: 1rem;
+  padding: 1.4rem 1.5rem;
+  color: var(--white);
+  margin-bottom: 1.25rem;
+  min-height: 9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  position: relative;
+  overflow: hidden;
+}
+.pay-card-preview::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+}
+.pay-card-preview::after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.pay-card-chip {
+  font-size: 0.6rem;
+  letter-spacing: 0.15em;
+  opacity: 0.75;
+}
+.pay-card-number {
+  font-family: "Syne", monospace;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  position: relative;
+  z-index: 1;
+}
+.pay-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  z-index: 1;
+}
+.pay-card-brand {
+  font-family: "Syne", sans-serif;
+  font-weight: 800;
+  font-size: 1.1rem;
+  letter-spacing: 0.05em;
+  opacity: 0.9;
+  font-style: italic;
+}
+
+/* Bank / POD info panel */
+.pay-info-panel {
+  background: var(--primary0);
+  border: 1.5px solid var(--primary2);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.pay-info-label {
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  color: var(--text);
+}
+.pay-bank-detail {
+  background: var(--white);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.pay-bank-name {
+  font-family: "Syne", sans-serif;
+  font-weight: 800;
+  font-size: var(--fs-md);
+  color: var(--text);
+}
+.pay-bank-num {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--primary8);
+}
+.pay-bank-bank {
+  font-size: var(--fs-sm);
+  color: var(--text-light);
+}
+.pay-info-note {
+  font-size: var(--fs-sm);
+  color: var(--text-light);
+  line-height: 1.55;
+}
+
+/* ── Order Confirmed screen ─────────────────────────────────── */
+.pay-success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  padding: 3rem 1rem;
+}
+
+.pay-success-card {
+  position: relative;
+  background: var(--white);
+  border-radius: 1.5rem;
+  border: 2px solid var(--primary1);
+  box-shadow: 0 8px 40px rgba(32, 201, 151, 0.12);
+  padding: 2.5rem 2rem;
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.pay-success-glow {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--primary0) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.pay-success-icon {
+  font-size: 3.5rem;
+  animation: pop 0.45s ease;
+  position: relative;
+  z-index: 1;
+}
+@keyframes pop {
+  0% {
+    transform: scale(0.4);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.pay-success-title {
+  font-family: "Syne", sans-serif;
+  font-size: var(--fs-xl);
+  font-weight: 800;
+  color: var(--text);
+  margin: 0.5rem 0 0.25rem;
+}
+
+.pay-success-msg {
+  font-size: var(--fs-sm);
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+
+.pay-success-ref {
+  display: inline-block;
+  background: var(--primary0);
+  color: var(--primary8);
+  font-size: var(--fs-sm);
+  border-radius: 999px;
+  padding: 0.3rem 1rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid var(--primary2);
+}
+
+.pay-success-items {
+  background: var(--primary0);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.pay-success-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--fs-sm);
+  color: var(--text-light);
+}
+.pay-success-row--total {
+  border-top: 1.5px solid var(--primary2);
+  padding-top: 0.5rem;
+  margin-top: 0.25rem;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  color: var(--text);
+}
+.pay-success-row--total span:last-child {
+  color: var(--primary8);
+}
+
+.pay-success-eta {
+  font-size: var(--fs-sm);
+  color: var(--text-light);
+  background: var(--primary0);
+  border-radius: 0.5rem;
+  padding: 0.55rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.pay-success-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.pay-success-btn {
+  text-decoration: none;
+}
+.pay-success-link {
+  font-size: var(--fs-sm);
+  color: var(--primary7);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.pay-success-link:hover {
+  color: var(--primary9);
+}

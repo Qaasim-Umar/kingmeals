@@ -3,12 +3,15 @@ import FlowerFrame from "../../components/FlowerFrame";
 import { Icon } from "../../components/Icon";
 import "./product.css";
 import data from "../../data";
-import Swiperer from "../../components/Swiper/Swiper";
+import { Link } from "react-router-dom";
+// import Swiperer from "../../components/Swiper/Swiper";
 
-function ProductPage() {
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+function ProductPage({ children }) {
   return (
     <>
-{/* <Swiperer/> */}
+      {/* <Swiperer/> */}
 
       <div className="product-hero">
         <div className="product-hero-container">
@@ -27,7 +30,7 @@ function ProductPage() {
         {data.map((category) => (
           <li key={category.id} className="product-list">
             <div className="product-list-header">
-              <div className="product-list-icon">
+              <div className="product-list-icon ">
                 <FlowerFrame
                   icon={category.icon}
                   bg={category.color}
@@ -39,22 +42,25 @@ function ProductPage() {
             </div>
             <ul className="product-list-grid">
               {category.menu.map((product) => (
-                <li key={product.id} className="product-list-gridcell">
-                 
-                    <ProductCard
-                      animated
-                      src={`/images/dish/${product.image}`}
-                      title={product.title}
-                      price={product.price}
-                      bg={category.color}
-                    ></ProductCard>
-                
-                  <button className="snipcart-add-item"
-                    data-item-id={product.id}
-                    data-item-image={`/images/dish/${product.image}`}
-                    data-item-name={product.title}
-                    data-item-price={product.price}
-                  >Add to cart</button>
+                <li key={product.id} className="product-list-gridcell ">
+                  <ProductCard
+                    animated
+                    src={`/images/dish/${product.image}`}
+                    title={product.title}
+                    price={product.price}
+                    bg={category.color}
+                    productDescription={product.productDescription}
+                  >
+                    <Link
+                    key={product.id}
+                      to={`/product/${product.id}`}
+                      className="shadow hover:scale-105 transition"
+                    >
+                      <button className="bg-[#097968] px-3 py-1 text-white">
+                        Order Food
+                      </button>
+                    </Link>
+                  </ProductCard>
                 </li>
               ))}
             </ul>

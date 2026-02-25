@@ -1,7 +1,7 @@
 import Content from '../components/Content/Content'
 import SupportSection from '../components/SupportSection/SupportSection'
 import Order from '../components/Order/Order'
-import Call from '../components/Call/Call'
+// import Call from '../components/Call/Call'
 import Services from '../components/Services/Services'
 import StoreContent from '../components/Content/storeContent/StoreContent'
 

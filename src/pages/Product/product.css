@@ -16,9 +16,7 @@
     min-width: 13em;
     border-radius: 4px;
     background-color: #dcfcf2;
-   /* margin: auto; */
-   padding:5px;
-   text-align: left;
+  
 }
 
 .product-hero h1 {
@@ -45,16 +43,7 @@
     transform: rotate(-20deg);
 }
 
-.snipcart-add-item{
-background-color: #20c997;
-color: white;
-border-radius: 4px;
-padding:9px 9px;
-margin: 10px 0;
 
-
-
-}
 @media only screen and (min-width: 48rem) {
     .product-hero-icon {
         display: initial;

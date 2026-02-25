@@ -30,7 +30,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className="footer-credits">
-				<div className="text-content">Built with 💚 by the Kings Meal Team</div>
+				<div className="text-content">Built with play by thatTechBro</div>
 				<div className="social-icons">
 					<div className="icons">
 						<a

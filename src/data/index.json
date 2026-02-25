@@ -11,26 +11,29 @@
         "title": "Caesar Salad",
         "price": 20,
         "image": "caesarsalad.webp"
+        ,"productDescription": "Smooth, fluffy pounded yam served with rich, nutrient-packed Efo Riro vegetable soup."
       },
       {
         "id": "m102",
         "title": "Chicken Broccoli",
         "price": 10,
-        "image": "chickenbroccoli.webp"
+        "image": "chickenbroccoli.webp",
+        "productDescription": "Smooth, fluffy pounded yam served with rich, nutrient-packed Efo Riro vegetable soup."
       },
       {
         "id": "m103",
         "title": "Chipotle Fish Bowl",
         "price": 2500,
-        "image": "chipotlefishbowl.webp"
+        "image": "chipotlefishbowl.webp",
+        "productDescription": "Smooth, fluffy pounded yam served with rich, nutrient-packed Efo Riro vegetable soup."
       },
       {
         "id": "m104",
         "title": "Creamy Chicken",
         "price": 12,
-        "image": "creamychicken.webp"
+        "image": "creamychicken.webp",
+        "productDescription": "Smooth, fluffy pounded yam served with rich, nutrient-packed Efo Riro vegetable soup."
       }
-     
     ]
   },
   {
@@ -43,28 +46,31 @@
       {
         "id": "m201",
         "title": "Potato Beef Curry",
-        "price": 25,
-        "image": "potatobeefcurry.webp"
+        "price": 13500,
+        "image": "potatobeefcurry.webp",
+        "productDescription": "Hearty beef and potato chunks in rich curry sauce."
       },
       {
         "id": "m202",
         "title": "Shrimp Paella",
-        "price": 20,
-        "image": "shrimppaella.webp"
+        "price": 7400,
+        "image": "shrimppaella.webp",
+         "productDescription": "Saffron rice with succulent shrimp."
       },
       {
         "id": "m203",
         "title": "Pork Ramen",
-        "price": 250,
-        "image": "porkramen.webp"
+        "price": 12000,
+        "image": "porkramen.webp",
+        "productDescription": "Savory noodle soup with tender pork"
       },
       {
         "id": "m204",
         "title": "Chicken Teriyaki",
-        "price": 20,
-        "image": "chickenteriyaki.webp"
+        "price": 5000,
+        "image": "chickenteriyaki.webp",
+               "productDescription": "Grilled chicken glazed in sweet, savory soy sauce."
       }
-     
     ]
   },
   {
@@ -77,26 +83,30 @@
       {
         "id": "m301",
         "title": "Plantain and Ofada",
-        "price": 15,
-        "image": "plantainofada.webp"
+        "price": 4500,
+        "image": "plantainofada.webp",
+         "productDescription": "Earthy, local unpolished rice served with spicy pepper sauce and sweet dodo."
       },
       {
         "id": "m302",
         "title": "Nigerian Jollof Rice",
-        "price": 17,
-        "image": "jollof.webp"
+        "price": 6500,
+        "image": "jollof.webp",
+         "productDescription": "Smoky, spicy parboiled rice cooked in a vibrant tomato and pepper base."
       },
       {
         "id": "m303",
         "title": "Rice and Ofada",
-        "price": 18,
-        "image": "riceofada.webp"
+        "price": 1800,
+        "image": "riceofada.webp",
+         "productDescription": "Earthy, local unpolished rice served with spicy pepper sauce and sweet dodo."
       },
       {
         "id": "m304",
         "title": "Poundo and Veg Soup",
-        "price": 20,
-        "image": "poundovegturkey.webp"
+        "price": 7000,
+        "image": "poundovegturkey.webp",
+         "productDescription": "Smooth, fluffy pounded yam served with rich, nutrient-packed Efo Riro vegetable soup."
       }
     ]
   },
@@ -111,25 +121,29 @@
         "id": "m401",
         "title": "Cheesy Salsa",
         "price": 23,
-        "image": "cheesysalsa.webp"
+        "image": "cheesysalsa.webp",
+        "productDescription": "Smooth, fluffy pounded yam served with rich, nutrient-packed Efo Riro vegetable soup."
       },
       {
         "id": "m402",
         "title": "Chili Turkey Beans",
         "price": 18,
-        "image": "chiliturkeybeans.webp"
+        "image": "chiliturkeybeans.webp",
+        "productDescription": "Smooth, fluffy pounded yam served with rich, nutrient-packed Efo Riro vegetable soup."
       },
       {
         "id": "m403",
         "title": "Fish Peppersoup",
         "price": 13,
-        "image": "peppersoup.webp"
+        "image": "peppersoup.webp",
+        "productDescription": "Smooth, fluffy pounded yam served with rich, nutrient-packed Efo Riro vegetable soup."
       },
       {
         "id": "m404",
         "title": "Fiery Tacos",
         "price": 24,
-        "image": "tacos.webp"
+        "image": "tacos.webp",
+        "productDescription": "Smooth, fluffy pounded yam served with rich, nutrient-packed Efo Riro vegetable soup."
       }
     ]
   },
@@ -144,25 +158,29 @@
         "id": "m501",
         "title": "Mixed Veggie Bowl",
         "price": 10,
-        "image": "mixedveggiebowl.webp"
+        "image": "mixedveggiebowl.webp",
+        "productDescription": "Smooth, fluffy pounded yam served with rich, nutrient-packed Efo Riro vegetable soup."
       },
       {
         "id": "m502",
         "title": "Vegan Salad",
         "price": 110,
-        "image": "vegansalad.webp"
+        "image": "vegansalad.webp",
+        "productDescription": "Smooth, fluffy pounded yam served with rich, nutrient-packed Efo Riro vegetable soup."
       },
       {
         "id": "m503",
         "title": "Egg Donburi",
         "price": 18,
-        "image": "eggdonburi.webp"
+        "image": "eggdonburi.webp",
+        "productDescription": "Smooth, fluffy pounded yam served with rich, nutrient-packed Efo Riro vegetable soup."
       },
       {
         "id": "m504",
         "title": "Fruity Maple Pancake",
         "price": 13,
-        "image": "pancake.webp"
+        "image": "pancake.webp",
+        "productDescription": "Smooth, fluffy pounded yam served with rich, nutrient-packed Efo Riro vegetable soup."
       }
     ]
   }
